@@ -1,533 +1,533 @@
-Player_ID,Club_ID,Position
-1,5,"MF,FW"
-2,5,GK
-3,5,FW
-4,5,DF
-5,5,DF
-6,5,DF
-7,5,MF
-8,5,MF
-9,5,DF
-10,5,DF
-11,5,MF
-12,5,DF
-13,5,"FW,MF"
-14,5,"MF,FW"
-15,5,DF
-16,5,"FW,MF"
-17,5,FW
-18,5,DF
-19,5,"FW,DF"
-20,5,FW
-21,5,GK
-22,5,MF
-23,5,GK
-24,5,FW
-25,5,DF
-26,5,DF
-27,5,MF
-28,12,GK
-29,12,DF
-30,12,MF
-31,12,FW
-32,12,DF
-33,12,"MF,FW"
-34,12,MF
-35,12,MF
-36,12,FW
-37,12,FW
-38,12,DF
-39,12,DF
-40,12,"FW,MF"
-41,12,DF
-42,12,"FW,MF"
-43,12,DF
-44,12,MF
-45,12,DF
-46,12,DF
-47,12,"FW,MF"
-48,12,DF
-49,12,GK
-50,12,GK
-51,12,FW
-52,13,MF
-53,13,DF
-54,13,DF
-55,13,FW
-56,13,DF
-57,13,DF
-58,13,MF
-59,13,GK
-60,13,MF
-61,13,"MF,FW"
-62,13,FW
-63,13,FW
-64,13,FW
-65,13,GK
-66,13,MF
-67,13,FW
-68,13,DF
-69,13,DF
-70,13,"FW,MF"
-71,13,"MF,FW"
-72,13,DF
-73,13,DF
-74,13,FW
-75,13,FW
-76,13,DF
-77,13,FW
-78,13,FW
-79,13,MF
-80,13,DF
-81,11,DF
-82,11,FW
-83,11,DF
-84,11,MF
-85,11,GK
-86,11,FW
-87,11,FW
-88,11,"DF,MF"
-89,11,MF
-90,11,"MF,DF"
-91,11,DF
-92,11,MF
-93,11,FW
-94,11,"MF,DF"
-95,11,DF
-96,11,DF
-97,11,DF
-98,11,MF
-99,11,DF
-100,11,"MF,FW"
-101,11,DF
-102,11,GK
-103,11,DF
-104,11,"MF,FW"
-105,11,"FW,MF"
-106,11,FW
-107,11,GK
-108,11,DF
-109,10,GK
-110,10,MF
-111,10,FW
-112,10,DF
-113,10,DF
-114,10,DF
-115,10,"MF,DF"
-116,10,"MF,FW"
-117,10,DF
-118,10,"FW,MF"
-119,10,DF
-120,10,"DF,FW"
-121,10,FW
-122,10,MF
-123,10,"MF,FW"
-124,10,DF
-125,10,DF
-126,10,"MF,FW"
-127,10,DF
-128,10,DF
-129,10,MF
-130,10,"MF,FW"
-131,10,MF
-132,10,FW
-133,10,FW
-134,10,DF
-135,10,MF
-136,19,MF
-137,19,DF
-138,19,GK
-139,19,DF
-140,19,MF
-141,19,"FW,MF"
-142,19,"FW,MF"
-143,19,DF
-144,19,FW
-145,19,DF
-146,19,"MF,FW"
-147,19,DF
-148,19,"FW,MF"
-149,19,DF
-150,19,"DF,FW"
-151,19,FW
-152,19,MF
-153,19,"DF,FW"
-154,19,"MF,FW"
-155,19,DF
-156,19,GK
-157,19,"FW,MF"
-158,19,"FW,DF"
-159,19,"FW,MF"
-160,17,MF
-161,17,GK
-162,17,FW
-163,17,FW
-164,17,DF
-165,17,MF
-166,17,DF
-167,17,DF
-168,17,DF
-169,17,DF
-170,17,MF
-171,17,"FW,MF"
-172,17,DF
-173,17,DF
-174,17,"FW,MF"
-175,17,MF
-176,17,FW
-177,17,MF
-178,17,DF
-179,17,MF
-180,17,DF
-181,17,"FW,MF"
-182,17,FW
-183,17,FW
-184,1,GK
-185,1,"FW,DF"
-186,1,"MF,DF"
-187,1,DF
-188,1,FW
-189,1,DF
-190,1,DF
-191,1,DF
-192,1,FW
-193,1,MF
-194,1,"MF,FW"
-195,1,MF
-196,1,MF
-197,1,DF
-198,1,FW
-199,1,"FW,MF"
-200,1,DF
-201,1,MF
-202,1,DF
-203,1,DF
-204,1,FW
-205,1,DF
-206,1,FW
-207,1,GK
-208,1,MF
-209,1,DF
-210,1,FW
-211,1,DF
-212,1,GK
-213,9,"DF,MF"
-214,9,DF
-215,9,FW
-216,9,GK
-217,9,MF
-218,9,DF
-219,9,MF
-220,9,MF
-221,9,MF
-222,9,DF
-223,9,"DF,MF"
-224,9,"MF,FW"
-225,9,"MF,FW"
-226,9,DF
-227,9,"MF,FW"
-228,9,"DF,MF"
-229,9,"MF,DF"
-230,9,MF
-231,9,GK
-232,9,DF
-233,9,"MF,DF"
-234,9,DF
-235,9,DF
-236,7,DF
-237,7,FW
-238,7,FW
-239,7,GK
-240,7,DF
-241,7,DF
-242,7,MF
-243,7,DF
-244,7,MF
-245,7,MF
-246,7,DF
-247,7,"FW,MF"
-248,7,"DF,MF"
-249,7,MF
-250,7,"FW,DF"
-251,7,MF
-252,7,GK
-253,7,"MF,FW"
-254,7,"MF,DF"
-255,7,"FW,MF"
-256,7,"DF,FW"
-257,7,DF
-258,7,"MF,FW"
-259,7,FW
-260,7,GK
-261,7,FW
-262,7,FW
-263,7,MF
-264,7,MF
-265,2,GK
-266,2,DF
-267,2,MF
-268,2,FW
-269,2,DF
-270,2,DF
-271,2,MF
-272,2,FW
-273,2,DF
-274,2,"FW,MF"
-275,2,MF
-276,2,FW
-277,2,FW
-278,2,MF
-279,2,DF
-280,2,DF
-281,2,MF
-282,2,MF
-283,2,MF
-284,2,"FW,MF"
-285,2,"FW,MF"
-286,2,"MF,FW"
-287,2,DF
-288,2,FW
-289,14,MF
-290,14,"MF,FW"
-291,14,GK
-292,14,DF
-293,14,FW
-294,14,"FW,MF"
-295,14,"MF,DF"
-296,14,DF
-297,14,DF
-298,14,DF
-299,14,"FW,MF"
-300,14,"DF,MF"
-301,14,MF
-302,14,MF
-303,14,"DF,MF"
-304,14,DF
-305,14,DF
-306,14,DF
-307,14,GK
-308,14,MF
-309,14,DF
-310,14,"FW,MF"
-311,14,DF
-312,14,"FW,MF"
-313,14,FW
-314,14,MF
-315,14,MF
-316,20,GK
-317,20,DF
-318,20,DF
-319,20,MF
-320,20,"FW,MF"
-321,20,FW
-322,20,MF
-323,20,"MF,DF"
-324,20,DF
-325,20,"MF,FW"
-326,20,DF
-327,20,DF
-328,20,DF
-329,20,FW
-330,20,FW
-331,20,FW
-332,20,DF
-333,20,DF
-334,20,DF
-335,20,MF
-336,20,"FW,MF"
-337,20,"MF,FW"
-338,20,DF
-339,20,GK
-340,20,"FW,MF"
-341,20,DF
-342,20,FW
-343,6,GK
-344,6,DF
-345,6,FW
-346,6,MF
-347,6,MF
-348,6,"MF,FW"
-349,6,DF
-350,6,"FW,MF"
-351,6,FW
-352,6,DF
-353,6,DF
-354,6,MF
-355,6,DF
-356,6,MF
-357,6,MF
-358,6,DF
-359,6,DF
-360,6,MF
-361,6,FW
-362,6,DF
-363,6,DF
-364,6,FW
-365,6,GK
-366,6,DF
-367,16,MF
-368,16,DF
-369,16,MF
-370,16,GK
-371,16,FW
-372,16,DF
-373,16,DF
-374,16,DF
-375,16,FW
-376,16,MF
-377,16,"MF,FW"
-378,16,"MF,FW"
-379,16,DF
-380,16,MF
-381,16,MF
-382,16,"MF,FW"
-383,16,DF
-384,16,GK
-385,16,"FW,MF"
-386,16,MF
-387,16,"FW,MF"
-388,16,"DF,MF"
-389,16,DF
-390,16,DF
-391,16,MF
-392,16,FW
-393,16,FW
-394,16,"MF,FW"
-395,16,DF
-396,3,"DF,MF"
-397,3,MF
-398,3,DF
-399,3,"FW,MF"
-400,3,DF
-401,3,"FW,MF"
-402,3,"MF,DF"
-403,3,GK
-404,3,DF
-405,3,DF
-406,3,DF
-407,3,FW
-408,3,"MF,FW"
-409,3,"MF,FW"
-410,3,GK
-411,3,DF
-412,3,"MF,DF"
-413,3,FW
-414,3,"DF,MF"
-415,3,"FW,MF"
-416,3,MF
-417,3,"DF,MF"
-418,3,"FW,MF"
-419,3,"FW,DF"
-420,3,"DF,MF"
-421,3,FW
-422,3,MF
-423,4,MF
-424,4,DF
-425,4,MF
-426,4,DF
-427,4,GK
-428,4,MF
-429,4,FW
-430,4,DF
-431,4,DF
-432,4,MF
-433,4,FW
-434,4,MF
-435,4,FW
-436,4,"DF,MF"
-437,4,"FW,MF"
-438,4,MF
-439,4,DF
-440,4,GK
-441,4,DF
-442,4,DF
-443,4,MF
-444,4,MF
-445,4,GK
-446,4,FW
-447,4,"FW,MF"
-448,8,GK
-449,8,DF
-450,8,"FW,MF"
-451,8,DF
-452,8,DF
-453,8,MF
-454,8,"MF,DF"
-455,8,"FW,MF"
-456,8,MF
-457,8,DF
-458,8,"MF,FW"
-459,8,MF
-460,8,DF
-461,8,FW
-462,8,"FW,MF"
-463,8,MF
-464,8,"DF,FW"
-465,8,DF
-466,8,MF
-467,8,DF
-468,8,DF
-469,8,"MF,FW"
-470,8,"FW,DF"
-471,8,GK
-472,8,DF
-473,8,"FW,MF"
-474,8,DF
-475,8,DF
-476,18,GK
-477,18,DF
-478,18,DF
-479,18,"MF,FW"
-480,18,DF
-481,18,MF
-482,18,DF
-483,18,DF
-484,18,MF
-485,18,"FW,MF"
-486,18,MF
-487,18,MF
-488,18,MF
-489,18,"MF,FW"
-490,18,MF
-491,18,FW
-492,18,"FW,MF"
-493,18,DF
-494,18,DF
-495,18,"MF,FW"
-496,18,MF
-497,18,DF
-498,18,FW
-499,18,"FW,MF"
-500,18,"MF,FW"
-501,18,GK
-502,18,DF
-503,18,FW
-504,18,MF
-505,18,MF
-506,15,GK
-507,15,DF
-508,15,"DF,MF"
-509,15,DF
-510,15,DF
-511,15,MF
-512,15,"FW,MF"
-513,15,MF
-514,15,"DF,MF"
-515,15,MF
-516,15,"MF,DF"
-517,15,FW
-518,15,MF
-519,15,FW
-520,15,FW
-521,15,DF
-522,15,DF
-523,15,DF
-524,15,FW
-525,15,DF
-526,15,DF
-527,15,FW
-528,15,"FW,MF"
-529,15,DF
-530,15,MF
-531,15,"DF,FW"
-532,15,DF
+Player_ID,Name,Nationality,Age,Club_ID,Position
+1,Mason Mount,ENG,21,5,"MF,FW"
+2,Edouard Mendy,SEN,28,5,GK
+3,Timo Werner,GER,24,5,FW
+4,Ben Chilwell,ENG,23,5,DF
+5,Reece James,ENG,20,5,DF
+6,César Azpilicueta,ESP,30,5,DF
+7,N'Golo Kanté,FRA,29,5,MF
+8,Jorginho,ITA,28,5,MF
+9,Thiago Silva,BRA,35,5,DF
+10,Kurt Zouma,FRA,25,5,DF
+11,Mateo Kovačić,CRO,26,5,MF
+12,Antonio Rüdiger,GER,27,5,DF
+13,Christian Pulisic,USA,21,5,"FW,MF"
+14,Kai Havertz,GER,21,5,"MF,FW"
+15,Andreas Christensen,DEN,24,5,DF
+16,Hakim Ziyech,MAR,27,5,"FW,MF"
+17,Tammy Abraham,ENG,22,5,FW
+18,Marcos Alonso,ESP,29,5,DF
+19,Callum Hudson-Odoi,ENG,19,5,"FW,DF"
+20,Olivier Giroud,FRA,33,5,FW
+21,Kepa Arrizabalaga,ESP,25,5,GK
+22,Billy Gilmour,SCO,19,5,MF
+23,Willy Caballero,ARG,38,5,GK
+24,Ruben Loftus-Cheek,ENG,24,5,FW
+25,Emerson Palmieri,ITA,25,5,DF
+26,Fikayo Tomori,ENG,22,5,DF
+27,Ross Barkley,ENG,26,5,MF
+28,Ederson,BRA,26,12,GK
+29,Rúben Dias,POR,23,12,DF
+30,Rodri,ESP,24,12,MF
+31,Raheem Sterling,ENG,25,12,FW
+32,João Cancelo,POR,26,12,DF
+33,Bernardo Silva,POR,25,12,"MF,FW"
+34,İlkay Gündoğan,GER,29,12,MF
+35,Kevin De Bruyne,BEL,29,12,MF
+36,Riyad Mahrez,ALG,29,12,FW
+37,Gabriel Jesus,BRA,23,12,FW
+38,Kyle Walker,ENG,30,12,DF
+39,John Stones,ENG,26,12,DF
+40,Phil Foden,ENG,20,12,"FW,MF"
+41,Oleksandr Zinchenko,UKR,23,12,DF
+42,Ferrán Torres,ESP,20,12,"FW,MF"
+43,Aymeric Laporte,FRA,26,12,DF
+44,Fernandinho,BRA,35,12,MF
+45,Benjamin Mendy,FRA,26,12,DF
+46,Nathan Aké,NED,25,12,DF
+47,Sergio Agüero,ARG,32,12,"FW,MF"
+48,Eric García,ESP,19,12,DF
+49,Scott Carson,ENG,34,12,GK
+50,Zack Steffen,USA,25,12,GK
+51,Liam Delap,ENG,17,12,FW
+52,Bruno Fernandes,POR,25,13,MF
+53,Aaron Wan-Bissaka,ENG,22,13,DF
+54,Harry Maguire,ENG,27,13,DF
+55,Marcus Rashford,ENG,22,13,FW
+56,Luke Shaw,ENG,25,13,DF
+57,Victor Lindelöf,SWE,26,13,DF
+58,Fred,BRA,27,13,MF
+59,David de Gea,ESP,29,13,GK
+60,Scott McTominay,SCO,23,13,MF
+61,Paul Pogba,FRA,27,13,"MF,FW"
+62,Mason Greenwood,ENG,18,13,FW
+63,Anthony Martial,FRA,24,13,FW
+64,Edinson Cavani,URU,33,13,FW
+65,Dean Henderson,ENG,23,13,GK
+66,Nemanja Matić,SRB,31,13,MF
+67,Daniel James,WAL,22,13,FW
+68,Eric Bailly,CIV,26,13,DF
+69,Alex Telles,BRA,27,13,DF
+70,Juan Mata,ESP,32,13,"FW,MF"
+71,Donny van de Beek,NED,23,13,"MF,FW"
+72,Axel Tuanzebe,ENG,22,13,DF
+73,Brandon Williams,ENG,19,13,DF
+74,Amad Diallo,CIV,18,13,FW
+75,Anthony Elanga,SWE,18,13,FW
+76,Timothy Fosu-Mensah,NED,22,13,DF
+77,Shola Shoretire,ENG,16,13,FW
+78,Odion Ighalo,NGA,31,13,FW
+79,Hannibal Mejbri,FRA,17,13,MF
+80,William Thomas Fish,ENG,17,13,DF
+81,Andrew Robertson,SCO,26,11,DF
+82,Mohamed Salah,EGY,28,11,FW
+83,Trent Alexander-Arnold,ENG,21,11,DF
+84,Georginio Wijnaldum,NED,29,11,MF
+85,Alisson,BRA,27,11,GK
+86,Roberto Firmino,BRA,28,11,FW
+87,Sadio Mané,SEN,28,11,FW
+88,Fabinho,BRA,26,11,"DF,MF"
+89,Thiago Alcántara,ESP,29,11,MF
+90,Jordan Henderson,ENG,30,11,"MF,DF"
+91,Nathaniel Phillips,ENG,23,11,DF
+92,Curtis Jones,ENG,19,11,MF
+93,Diogo Jota,POR,23,11,FW
+94,James Milner,ENG,34,11,"MF,DF"
+95,Ozan Kabak,TUR,20,11,DF
+96,Joël Matip,CMR,28,11,DF
+97,Rhys Williams,ENG,19,11,DF
+98,Naby Keïta,GUI,25,11,MF
+99,Joe Gomez,ENG,23,11,DF
+100,Xherdan Shaqiri,SUI,28,11,"MF,FW"
+101,Virgil van Dijk,NED,29,11,DF
+102,Adrián,ESP,33,11,GK
+103,Neco Williams,WAL,19,11,DF
+104,Takumi Minamino,JPN,25,11,"MF,FW"
+105,Alex Oxlade-Chamberlain,ENG,26,11,"FW,MF"
+106,Divock Origi,BEL,25,11,FW
+107,Caoimhín Kelleher,IRL,21,11,GK
+108,Kostas Tsimikas,GRE,24,11,DF
+109,Kasper Schmeichel,DEN,33,10,GK
+110,Youri Tielemans,BEL,23,10,MF
+111,Jamie Vardy,ENG,33,10,FW
+112,Jonny Evans,NIR,32,10,DF
+113,Timothy Castagne,BEL,24,10,DF
+114,Wesley Fofana,FRA,19,10,DF
+115,Wilfred Ndidi,NGA,23,10,"MF,DF"
+116,James Maddison,ENG,23,10,"MF,FW"
+117,James Justin,ENG,22,10,DF
+118,Harvey Barnes,ENG,22,10,"FW,MF"
+119,Çağlar Söyüncü,TUR,24,10,DF
+120,Marc Albrighton,ENG,30,10,"DF,FW"
+121,Kelechi Iheanacho,NGA,23,10,FW
+122,Nampalys Mendy,SEN,28,10,MF
+123,Ayoze Pérez,ESP,27,10,"MF,FW"
+124,Luke Thomas,ENG,19,10,DF
+125,Ricardo Pereira,POR,26,10,DF
+126,Dennis Praet,BEL,26,10,"MF,FW"
+127,Daniel Amartey,GHA,25,10,DF
+128,Christian Fuchs,AUT,34,10,DF
+129,Hamza Choudhury,ENG,22,10,MF
+130,Cengiz Ünder,TUR,23,10,"MF,FW"
+131,Sidnei Tavares,POR,18,10,MF
+132,Islam Slimani,ALG,32,10,FW
+133,Demarai Gray,ENG,24,10,FW
+134,Wes Morgan,JAM,36,10,DF
+135,Khanya Leshabela,RSA,20,10,MF
+136,Tomáš Souček,CZE,25,19,MF
+137,Aaron Cresswell,ENG,30,19,DF
+138,Łukasz Fabiański,POL,35,19,GK
+139,Vladimír Coufal,CZE,27,19,DF
+140,Declan Rice,ENG,21,19,MF
+141,Pablo Fornals,ESP,24,19,"FW,MF"
+142,Jarrod Bowen,ENG,23,19,"FW,MF"
+143,Angelo Ogbonna,ITA,32,19,DF
+144,Michail Antonio,ENG,30,19,FW
+145,Craig Dawson,ENG,30,19,DF
+146,Jesse Lingard,ENG,27,19,"MF,FW"
+147,Issa Diop,FRA,23,19,DF
+148,Saïd Benrahma,ALG,24,19,"FW,MF"
+149,Fabián Balbuena,PAR,28,19,DF
+150,Arthur Masuaku,COD,26,19,"DF,FW"
+151,Sébastien Haller,CIV,26,19,FW
+152,Mark Noble,ENG,33,19,MF
+153,Ryan Fredericks,ENG,27,19,"DF,FW"
+154,Manuel Lanzini,ARG,27,19,"MF,FW"
+155,Ben Johnson,ENG,20,19,DF
+156,Darren Randolph,IRL,33,19,GK
+157,Andriy Yarmolenko,UKR,30,19,"FW,MF"
+158,Robert Snodgrass,SCO,32,19,"FW,DF"
+159,Felipe Anderson,BRA,27,19,"FW,MF"
+160,Pierre Højbjerg,DEN,24,17,MF
+161,Hugo Lloris,FRA,33,17,GK
+162,Son Heung-min,KOR,28,17,FW
+163,Harry Kane,ENG,27,17,FW
+164,Eric Dier,ENG,26,17,DF
+165,Tanguy Ndombele,FRA,23,17,MF
+166,Sergio Reguilón,ESP,23,17,DF
+167,Toby Alderweireld,BEL,31,17,DF
+168,Serge Aurier,CIV,27,17,DF
+169,Davinson Sánchez,COL,24,17,DF
+170,Moussa Sissoko,FRA,30,17,MF
+171,Lucas Moura,BRA,27,17,"FW,MF"
+172,Ben Davies,WAL,27,17,DF
+173,Matt Doherty,IRL,28,17,DF
+174,Steven Bergwijn,NED,22,17,"FW,MF"
+175,Giovani Lo Celso,ARG,24,17,MF
+176,Gareth Bale,WAL,31,17,FW
+177,Harry Winks,ENG,24,17,MF
+178,Joe Rodon,WAL,22,17,DF
+179,Dele Alli,ENG,24,17,MF
+180,Japhet Tanganga,ENG,21,17,DF
+181,Érik Lamela,ARG,28,17,"FW,MF"
+182,Carlos Vinícius,BRA,25,17,FW
+183,Dane Scarlett,ENG,16,17,FW
+184,Bernd Leno,GER,28,1,GK
+185,Bukayo Saka,ENG,18,1,"FW,DF"
+186,Granit Xhaka,SUI,27,1,"MF,DF"
+187,Rob Holding,ENG,24,1,DF
+188,Pierre-Emerick Aubameyang,GAB,31,1,FW
+189,Kieran Tierney,SCO,23,1,DF
+190,Héctor Bellerín,ESP,25,1,DF
+191,Gabriel Dos Santos,BRA,22,1,DF
+192,Alexandre Lacazette,FRA,29,1,FW
+193,Thomas Partey,GHA,27,1,MF
+194,Emile Smith-Rowe,ENG,20,1,"MF,FW"
+195,Dani Ceballos,ESP,23,1,MF
+196,Mohamed Elneny,EGY,28,1,MF
+197,David Luiz,BRA,33,1,DF
+198,Nicolas Pépé,CIV,25,1,FW
+199,Willian,BRA,31,1,"FW,MF"
+200,Pablo Marí,ESP,26,1,DF
+201,Martin Ødegaard,NOR,21,1,MF
+202,Calum Chambers,ENG,25,1,DF
+203,Cédric Soares,POR,28,1,DF
+204,Martinelli,BRA,19,1,FW
+205,Ainsley Maitland-Niles,ENG,22,1,DF
+206,Eddie Nketiah,ENG,21,1,FW
+207,Mathew Ryan,AUS,28,1,GK
+208,Joe Willock,ENG,20,1,MF
+209,Sead Kolašinac,BIH,27,1,DF
+210,Reiss Nelson,ENG,20,1,FW
+211,Shkodran Mustafi,GER,28,1,DF
+212,Rúnar Alex Rúnarsson,ISL,25,1,GK
+213,Stuart Dallas,NIR,29,9,"DF,MF"
+214,Luke Ayling,ENG,28,9,DF
+215,Patrick Bamford,ENG,26,9,FW
+216,Illan Meslier,FRA,20,9,GK
+217,Jack Harrison,ENG,23,9,MF
+218,Ezgjan Alioski,MKD,28,9,DF
+219,Kalvin Phillips,ENG,24,9,MF
+220,Mateusz Klich,POL,30,9,MF
+221,Raphael Dias Belloli,BRA,23,9,MF
+222,Liam Cooper,SCO,28,9,DF
+223,Pascal Struijk,NED,20,9,"DF,MF"
+224,Tyler Roberts,WAL,21,9,"MF,FW"
+225,Rodrigo,ESP,29,9,"MF,FW"
+226,Diego Llorente,ESP,26,9,DF
+227,Hélder Costa,POR,26,9,"MF,FW"
+228,Robin Koch,GER,24,9,"DF,MF"
+229,Jamie Shackleton,ENG,20,9,"MF,DF"
+230,Pablo Hernández,ESP,35,9,MF
+231,Kiko Casilla,ESP,33,9,GK
+232,Gaetano Berardi,SUI,31,9,DF
+233,Ian Carlo Poveda,ENG,20,9,"MF,DF"
+234,Niall Huggins,WAL,19,9,DF
+235,Leif Davis,ENG,20,9,DF
+236,Michael Keane,ENG,27,7,DF
+237,Richarlison,BRA,23,7,FW
+238,Dominic Calvert-Lewin,ENG,23,7,FW
+239,Jordan Pickford,ENG,26,7,GK
+240,Lucas Digne,FRA,27,7,DF
+241,Ben Godfrey,ENG,22,7,DF
+242,Abdoulaye Doucouré,FRA,27,7,MF
+243,Mason Holgate,ENG,23,7,DF
+244,Gylfi Sigurðsson,ISL,30,7,MF
+245,Allan,BRA,29,7,MF
+246,Yerry Mina,COL,25,7,DF
+247,James Rodríguez,COL,29,7,"FW,MF"
+248,Séamus Coleman,IRL,31,7,"DF,MF"
+249,André Gomes,POR,27,7,MF
+250,Alex Iwobi,NGA,24,7,"FW,DF"
+251,Tom Davies,ENG,22,7,MF
+252,Robin Olsen,SWE,30,7,GK
+253,Bernard,BRA,27,7,"MF,FW"
+254,Fabian Delph,ENG,30,7,"MF,DF"
+255,Anthony Gordon,ENG,19,7,"FW,MF"
+256,Niels Nkounkou,FRA,19,7,"DF,FW"
+257,Jonjoe Kenny,ENG,23,7,DF
+258,Joshua King,NOR,28,7,"MF,FW"
+259,Cenk Tosun,TUR,29,7,FW
+260,João Virgínia,POR,20,7,GK
+261,Moise Kean,ITA,20,7,FW
+262,Theo Walcott,ENG,31,7,FW
+263,Jean-Philippe Gbamin,CIV,24,7,MF
+264,Nathan Broadhead,WAL,22,7,MF
+265,Emiliano Martínez,ARG,27,2,GK
+266,Matt Targett,ENG,24,2,DF
+267,John McGinn,SCO,25,2,MF
+268,Ollie Watkins,ENG,24,2,FW
+269,Tyrone Mings,ENG,27,2,DF
+270,Ezri Konsa,ENG,22,2,DF
+271,Douglas Luiz,BRA,22,2,MF
+272,Bertrand Traoré,BFA,24,2,FW
+273,Matty Cash,ENG,22,2,DF
+274,Jack Grealish,ENG,24,2,"FW,MF"
+275,Ross Barkley,ENG,26,2,MF
+276,Anwar El Ghazi,NED,25,2,FW
+277,Trézéguet,EGY,25,2,FW
+278,Marvelous Nakamba,ZIM,26,2,MF
+279,Ahmed Elmohamady,EGY,32,2,DF
+280,Kortney Hause,ENG,25,2,DF
+281,Jacob Ramsey,ENG,19,2,MF
+282,Morgan Sanson,FRA,25,2,MF
+283,Conor Hourihane,IRL,29,2,MF
+284,Keinan Davis,ENG,22,2,"FW,MF"
+285,Carney Chukwuemeka,ENG,16,2,"FW,MF"
+286,Wesley Moraes,BRA,23,2,"MF,FW"
+287,Neil Taylor,WAL,31,2,DF
+288,Jaden Philogene Bidace,ENG,18,2,FW
+289,Jonjo Shelvey,ENG,28,14,MF
+290,Miguel Almirón,PAR,26,14,"MF,FW"
+291,Karl Darlow,ENG,29,14,GK
+292,Federico Fernández,ARG,31,14,DF
+293,Callum Wilson,ENG,28,14,FW
+294,Joelinton,BRA,23,14,"FW,MF"
+295,Isaac Hayden,ENG,25,14,"MF,DF"
+296,Ciaran Clark,IRL,30,14,DF
+297,Jamal Lewis,NIR,22,14,DF
+298,Jamaal Lascelles,ENG,26,14,DF
+299,Allan Saint-Maximin,FRA,23,14,"FW,MF"
+300,Jacob Murphy,ENG,25,14,"DF,MF"
+301,Jeff Hendrick,IRL,28,14,MF
+302,Sean Longstaff,ENG,22,14,MF
+303,Matt Ritchie,SCO,30,14,"DF,MF"
+304,Emil Krafth,SWE,25,14,DF
+305,Paul Dummett,WAL,28,14,DF
+306,Fabian Schär,SUI,28,14,DF
+307,Martin Dúbravka,SVK,31,14,GK
+308,Joe Willock,ENG,20,14,MF
+309,Javier Manquillo,ESP,26,14,DF
+310,Ryan Fraser,SCO,26,14,"FW,MF"
+311,DeAndre Yedlin,USA,27,14,DF
+312,Dwight Gayle,ENG,29,14,"FW,MF"
+313,Andy Carroll,ENG,31,14,FW
+314,Matthew Longstaff,ENG,20,14,MF
+315,Elliot Anderson,SCO,17,14,MF
+316,Rui Patrício,POR,32,20,GK
+317,Conor Coady,ENG,27,20,DF
+318,Nélson Semedo,POR,26,20,DF
+319,Rúben Neves,POR,23,20,MF
+320,Pedro Neto,POR,20,20,"FW,MF"
+321,Adama Traoré,ESP,24,20,FW
+322,João Moutinho,POR,33,20,MF
+323,Leander Dendoncker,BEL,25,20,"MF,DF"
+324,Romain Saïss,MAR,30,20,DF
+325,Daniel Podence,POR,24,20,"MF,FW"
+326,Willy Boly,CIV,29,20,DF
+327,Rayan Aït Nouri,FRA,19,20,DF
+328,Max Kilman,ENG,23,20,DF
+329,Willian José,BRA,28,20,FW
+330,Fábio Silva,POR,18,20,FW
+331,Raúl Jiménez,MEX,29,20,FW
+332,Fernando Marçal,BRA,31,20,DF
+333,Jonny Castro,ESP,26,20,DF
+334,Ki-Jana Hoever,NED,18,20,DF
+335,Vitinha,POR,20,20,MF
+336,Morgan Gibbs-White,ENG,20,20,"FW,MF"
+337,Owen Otasowie,USA,19,20,"MF,FW"
+338,Rúben Vinagre,POR,21,20,DF
+339,John Ruddy,ENG,33,20,GK
+340,Patrick Cutrone,ITA,22,20,"FW,MF"
+341,Oskar Buur,DEN,22,20,DF
+342,Theo Corbeanu,CAN,18,20,FW
+343,Vicente Guaita,ESP,33,6,GK
+344,Cheikhou Kouyaté,SEN,30,6,DF
+345,Wilfried Zaha,CIV,27,6,FW
+346,Eberechi Eze,ENG,22,6,MF
+347,Luka Milivojević,SRB,29,6,MF
+348,Andros Townsend,ENG,29,6,"MF,FW"
+349,Joel Ward,ENG,30,6,DF
+350,Jordan Ayew,GHA,28,6,"FW,MF"
+351,Christian Benteke,BEL,29,6,FW
+352,Gary Cahill,ENG,34,6,DF
+353,Patrick van Aanholt,NED,29,6,DF
+354,Jaïro Riedewald,NED,23,6,MF
+355,Tyrick Mitchell,ENG,20,6,DF
+356,James McArthur,SCO,32,6,MF
+357,Jeffrey Schlupp,GHA,27,6,MF
+358,Scott Dann,ENG,33,6,DF
+359,Nathaniel Clyne,ENG,29,6,DF
+360,James McCarthy,IRL,29,6,MF
+361,Michy Batshuayi,BEL,26,6,FW
+362,James Tomkins,ENG,31,6,DF
+363,Mamadou Sakho,FRA,30,6,DF
+364,Jean-Philippe Mateta,FRA,23,6,FW
+365,Jack Butland,ENG,27,6,GK
+366,Martin Kelly,ENG,30,6,DF
+367,James Ward-Prowse,ENG,25,16,MF
+368,Jan Bednarek,POL,24,16,DF
+369,Stuart Armstrong,SCO,28,16,MF
+370,Alex McCarthy,ENG,30,16,GK
+371,Che Adams,SCO,24,16,FW
+372,Kyle Walker-Peters,ENG,23,16,DF
+373,Ryan Bertrand,ENG,30,16,DF
+374,Jannik Vestergaard,DEN,27,16,DF
+375,Danny Ings,ENG,28,16,FW
+376,Oriol Romeu,ESP,28,16,MF
+377,Theo Walcott,ENG,31,16,"MF,FW"
+378,Nathan Redmond,ENG,26,16,"MF,FW"
+379,Jack Stephens,ENG,26,16,DF
+380,Moussa Djenepo,MLI,22,16,MF
+381,Ibrahima Diallo,FRA,21,16,MF
+382,Takumi Minamino,JPN,25,16,"MF,FW"
+383,Mohammed Salisu,GHA,21,16,DF
+384,Fraser Forster,ENG,32,16,GK
+385,Nathan Tella,ENG,21,16,"FW,MF"
+386,William Smallbone,IRL,20,16,MF
+387,Shane Long,IRL,33,16,"FW,MF"
+388,Yan Valery,FRA,21,16,"DF,MF"
+389,Kayne Ramsey,ENG,19,16,DF
+390,Jake Vokins,ENG,20,16,DF
+391,Alexandre Jankewitz,SUI,18,16,MF
+392,Dan Nlundulu,ENG,21,16,FW
+393,Michael Obafemi,IRL,20,16,FW
+394,Caleb Watts,AUS,18,16,"MF,FW"
+395,Allan Tchaptchet,FRA,18,16,DF
+396,Ben White,ENG,22,3,"DF,MF"
+397,Yves Bissouma,MLI,23,3,MF
+398,Lewis Dunk,ENG,28,3,DF
+399,Leandro Trossard,BEL,25,3,"FW,MF"
+400,Adam Webster,ENG,25,3,DF
+401,Neal Maupay,FRA,23,3,"FW,MF"
+402,Pascal Groß,GER,29,3,"MF,DF"
+403,Robert Sánchez,ESP,22,3,GK
+404,Joël Veltman,NED,28,3,DF
+405,Dan Burn,ENG,28,3,DF
+406,Solly March,ENG,26,3,DF
+407,Danny Welbeck,ENG,29,3,FW
+408,Adam Lallana,ENG,32,3,"MF,FW"
+409,Alexis Mac Allister,ARG,21,3,"MF,FW"
+410,Mathew Ryan,AUS,28,3,GK
+411,Tariq Lamptey,ENG,19,3,DF
+412,Steven Alzate,COL,21,3,"MF,DF"
+413,Aaron Connolly,IRL,20,3,FW
+414,Jakub Moder,POL,21,3,"DF,MF"
+415,Alireza Jahanbakhsh,IRN,26,3,"FW,MF"
+416,Davy Pröpper,NED,28,3,MF
+417,Bernardo,BRA,25,3,"DF,MF"
+418,Percy Tau,RSA,26,3,"FW,MF"
+419,Andi Zeqiri,SUI,21,3,"FW,DF"
+420,José Izquierdo,COL,28,3,"DF,MF"
+421,Reda Khadra,GER,19,3,FW
+422,Jayson Molumby,IRL,20,3,MF
+423,Ashley Westwood,ENG,30,4,MF
+424,James Tarkowski,ENG,27,4,DF
+425,Dwight McNeil,ENG,20,4,MF
+426,Matthew Lowton,ENG,31,4,DF
+427,Nick Pope,ENG,28,4,GK
+428,Josh Brownhill,ENG,24,4,MF
+429,Chris Wood,NZL,28,4,FW
+430,Ben Mee,ENG,30,4,DF
+431,Charlie Taylor,ENG,26,4,DF
+432,Jóhann Berg Guðmundsson,ISL,29,4,MF
+433,Matěj Vydra,CZE,28,4,FW
+434,Jack Cork,ENG,31,4,MF
+435,Ashley Barnes,ENG,30,4,FW
+436,Erik Pieters,NED,31,4,"DF,MF"
+437,Jay Rodriguez,ENG,31,4,"FW,MF"
+438,Robbie Brady,IRL,28,4,MF
+439,Kevin Long,IRL,29,4,DF
+440,Bailey Peacock-Farrell,NIR,23,4,GK
+441,Phil Bardsley,SCO,35,4,DF
+442,Jimmy Dunne,IRL,22,4,DF
+443,Dale Stephens,ENG,31,4,MF
+444,Josh Benson,ENG,20,4,MF
+445,Will Norris,ENG,26,4,GK
+446,Joel Mumbongo,SWE,21,4,FW
+447,Lewis Richardson,ENG,17,4,"FW,MF"
+448,Alphonse Areola,FRA,27,8,GK
+449,Tosin Adarabioyo,ENG,22,8,DF
+450,Ademola Lookman,ENG,22,8,"FW,MF"
+451,Ola Aina,NGA,23,8,DF
+452,Joachim Andersen,DEN,24,8,DF
+453,Andre-Frank Zambo Anguissa,CMR,24,8,MF
+454,Bobby Reid,JAM,27,8,"MF,DF"
+455,Ivan Cavaleiro,POR,26,8,"FW,MF"
+456,Harrison Reed,ENG,25,8,MF
+457,Antonee Robinson,USA,22,8,DF
+458,Ruben Loftus-Cheek,ENG,24,8,"MF,FW"
+459,Mario Lemina,GAB,26,8,MF
+460,Kenny Tete,NED,24,8,DF
+461,Aleksandar Mitrović,SRB,25,8,FW
+462,Josh Maja,NGA,21,8,"FW,MF"
+463,Tom Cairney,SCO,29,8,MF
+464,Joe Bryan,ENG,26,8,"DF,FW"
+465,Tim Ream,USA,32,8,DF
+466,Josh Onomah,ENG,23,8,MF
+467,Denis Odoi,BEL,32,8,DF
+468,Michael Hector,JAM,28,8,DF
+469,Fabio Carvalho,ENG,17,8,"MF,FW"
+470,Aboubakar Kamara,MTN,25,8,"FW,DF"
+471,Marek Rodák,SVK,23,8,GK
+472,Maxime Le Marchand,FRA,30,8,DF
+473,Neeskens Kebano,COD,28,8,"FW,MF"
+474,Terence Kongolo,NED,26,8,DF
+475,Tyrese Francois,AUS,20,8,DF
+476,Sam Johnstone,ENG,27,18,GK
+477,Darnell Furlong,ENG,24,18,DF
+478,Semi Ajayi,NGA,26,18,DF
+479,Matheus Pereira,BRA,24,18,"MF,FW"
+480,Kyle Bartley,ENG,29,18,DF
+481,Conor Gallagher,ENG,20,18,MF
+482,Conor Townsend,ENG,27,18,DF
+483,Dara O'Shea,IRL,21,18,DF
+484,Matt Phillips,SCO,29,18,MF
+485,Callum Robinson,IRL,25,18,"FW,MF"
+486,Romaine Sawyers,SKN,28,18,MF
+487,Okay Yokuşlu,TUR,26,18,MF
+488,Jake Livermore,ENG,30,18,MF
+489,Grady Diangana,ENG,22,18,"MF,FW"
+490,Ainsley Maitland-Niles,ENG,22,18,MF
+491,Mbaye Diagne,SEN,28,18,FW
+492,Karlan Grant,ENG,22,18,"FW,MF"
+493,Kieran Gibbs,ENG,30,18,DF
+494,Branislav Ivanović,SRB,36,18,DF
+495,Robert Snodgrass,SCO,32,18,"MF,FW"
+496,Filip Krovinović,CRO,24,18,MF
+497,Lee Peltier,ENG,33,18,DF
+498,Hal Robson-Kanu,WAL,31,18,FW
+499,Kamil Grosicki,POL,32,18,"FW,MF"
+500,Kyle Edwards,ENG,22,18,"MF,FW"
+501,David Button,ENG,31,18,GK
+502,Ahmed Hegazi,EGY,29,18,DF
+503,Charlie Austin,ENG,31,18,FW
+504,Sam Field,ENG,22,18,MF
+505,Rekeem Harper,ENG,20,18,MF
+506,Aaron Ramsdale,ENG,22,15,GK
+507,George Baldock,ENG,27,15,DF
+508,Chris Basham,ENG,32,15,"DF,MF"
+509,Enda Stevens,IRL,30,15,DF
+510,John Egan,IRL,27,15,DF
+511,John Fleck,SCO,28,15,MF
+512,David McGoldrick,IRL,32,15,"FW,MF"
+513,Oliver Norwood,NIR,29,15,MF
+514,Ethan Ampadu,WAL,19,15,"DF,MF"
+515,John Lundstram,ENG,26,15,MF
+516,Ben Osborn,ENG,25,15,"MF,DF"
+517,Oliver Burke,SCO,23,15,FW
+518,Sander Berge,NOR,22,15,MF
+519,Oliver McBurnie,SCO,24,15,FW
+520,Rhian Brewster,ENG,20,15,FW
+521,Jayden Bogle,ENG,20,15,DF
+522,Kean Bryan,ENG,23,15,DF
+523,Jack Robinson,ENG,26,15,DF
+524,Billy Sharp,ENG,34,15,FW
+525,Max Lowe,ENG,23,15,DF
+526,Phil Jagielka,ENG,37,15,DF
+527,Daniel Jebbison,ENG,17,15,FW
+528,Lys Mousset,FRA,24,15,"FW,MF"
+529,Jack O'Connell,ENG,26,15,DF
+530,Iliman Ndiaye,FRA,21,15,MF
+531,Antwoine Hackford,ENG,16,15,"DF,FW"
+532,Femi Seriki,ENG,17,15,DF
