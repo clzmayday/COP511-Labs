@@ -1,223 +1,223 @@
-FIFA_Country_Code,Country
-AFG,Afghanistan
-AIA,Anguilla
-ALB,Albania
-ALG,Algeria
-AND,Andorra
-ANG,Angola
-ARG,Argentina
-ARM,Armenia
-ARU,Aruba
-ARU,Australia
-ASA,American Samoa
-ATG,Antigua and Barbuda
-AUT,Austria
-AZE,Azerbaijan
-BAH,Bahamas
-BAN,Bangladesh
-BDI,Burundi
-BEL,Belgium
-BEN,Benin
-BER,Bermuda
-BFA,Burkina Faso
-BHR,Bahrain
-BHU,Bhutan
-BIH,Bosnia-Herzegovina
-BLR,Belarus
-BLZ,Belize
-BOE,Bonaire
-BOL,Bolivia
-BOT,Botswana
-BRA,Brazil
-BRB,Barbados
-BRU,Brunei
-BUL,Bulgaria
-CAM,Cambodia
-CAN,Canada
-CAY,Cayman Islands
-CGO,Congo
-CHA,Chad
-CHI,Chile
-CHN,China
-CIV,Côte d'Ivoire
-CMR,Cameroon
-COD,Congo DR
-COK,Cook Islands
-COL,Colombia
-COM,Comoros
-CPV,Cape Verde
-CRC,Costa Rica
-CRO,Croatia
-CTA,Central African Republic
-CUB,Cuba
-CUW,Curaçao
-CYP,Cyprus
-CZE,Czech Republic
-DEN,Denmark
-DJI,Djibouti
-DMA,Dominica
-DOM,Dominican Republic
-ECU,Ecuador
-EGY,Egypt
-ENG,England
-EQG,Equatorial Guinea
-ERI,Eritrea
-ESP,Spain
-EST,Estonia
-ETH,Ethiopia
-FIJ,Fiji
-FIN,Finland
-FRA,France
-FRO,Faroe Islands
-GAB,Gabon
-GAM,Gambia
-GEO,Georgia
-GER,Germany
-GHA,Ghana
-GIB,Gibraltar
-GNB,Guinea-Bissau
-GPE,Guadeloupe
-GRE,Greece
-GRN,Grenada
-GUA,Guatemala
-GUI,Guinea
-GUM,Guam
-GUY,Guyana
-GYF,French Guiana
-HAI,Haiti
-HKG,Hong Kong
-HON,Honduras
-HUN,Hungary
-IDN,Indonesia
-IND,India
-IRL,Ireland
-IRN,Iran
-IRQ,Iraq
-ISL,Iceland
-ISR,Israel
-ITA,Italy
-JAM,Jamaica
-JOR,Jordan
-JPN,Japan
-KAZ,Kazakhstan
-KEN,Kenya
-KGZ,Kyrgyzstan
-KIR,Kiribati
-KOR,South Korea
-KSA,Saudi Arabia
-KUW,Kuwait
-LAO,Laos
-LBR,Liberia
-LBY,Libya
-LCA,Saint Lucia
-LES,Lesotho
-LIB,Lebanon
-LIE,Liechtenstein
-LTU,Lithuania
-LUX,Luxembourg
-LVA,Latvia
-MAC,Macau
-MAD,Madagascar
-MAR,Morocco
-MAS,Malaysia
-MDA,Moldova
-MDV,Maldives
-MEX,Mexico
-MKD,Macedonia
-MLI,Mali
-MLT,Malta
-MNE,Montenegro
-MNG,Mongolia
-MOZ,Mozambique
-MRI,Mauritius
-MSR,Montserrat
-MTN,Mauritania
-MTQ,Martinique
-MWI,Malawi
-MYA,Myanmar
-NAM,Namibia
-NCA,Nicaragua
-NCL,New Caledonia
-NED,Netherlands
-NEP,Nepal
-NGA,Nigeria
-NIG,Niger
-NIR,Northern Ireland
-NIU,Niue
-NMI,Northern Mariana Islands
-NOR,Norway
-NZL,New Zealand
-OMA,Oman
-PAK,Pakistan
-PAN,Panama
-PAR,Paraguay
-PER,Peru
-PHI,Philippines
-PLE,Palestine
-PNG,Papua New Guinea
-POL,Poland
-POR,Portugal
-PRK,North Korea
-PUR,Puerto Rico
-QAT,Qatar
-REU,Réunion
-ROU,Romania
-RSA,South Africa
-RUS,Russia
-RWA,Rwanda
-SAM,Samoa
-SCO,Scotland
-SDN,Sudan
-SEN,Senegal
-SEY,Seychelles
-SIN,Singapore
-SKN,Saint Kitts and Nevis
-SLE,Sierra Leone
-SLV,El Salvador
-SMR,San Marino
-SMT,Saint-Martin (French)
-SOL,Solomon Islands
-SOM,Somalia
-SRB,Serbia
-SRI,Sri Lanka
-SSD,South Sudan
-STP,São Tomé and Príncipe
-SUI,Switzerland
-SUR,Suriname
-SVK,Slovakia
-SVN,Slovenia
-SWE,Sweden
-SWZ,Swaziland
-SXM,Sint Maarten (Dutch)
-SYR,Syria
-TAH,Tahiti
-TAN,Tanzania
-TCA,Turks and Caicos Islands
-TGA,Tonga
-THA,Thailand
-TJK,Tajikistan
-TKM,Turkmenistan
-TLS,Timor-Leste
-TOG,Togo
-TPE,Taiwan
-TRI,Trinidad and Tobago
-TUN,Tunisia
-TUR,Turkey
-TUV,Tuvalu
-UAE,United Arab Emirates
-UGA,Uganda
-UKR,Ukraine
-URU,Uruguay
-USA,United States
-UZB,Uzbekistan
-VAN,Vanuatu
-VEN,Venezuela
-VGB,British Virgin Islands
-VIE,Vietnam
-VIN,Saint Vincent and the Grenadines
-VIR,U.S. Virgin Islands
-WAL,Wales
-YEM,Yemen
-ZAM,Zambia
-ZAN,Zanzibar
-ZIM,Zimbabwe
+FIFA Contry Code,Country (Name),State/Province,latitude,longitude
+AFG,Afghanistan,,33.93911,67.709953
+AIA,Anguilla,,18.220554,-63.068615
+ALB,Albania,,41.153332,20.168331
+ALG,Algeria,,28.033886,1.659626
+AND,Andorra,,42.546245,1.601554
+ANG,Angola,,-11.202692,17.873887
+ARG,Argentina,,-38.416097,-63.616672
+ARM,Armenia,,40.069099,45.038189
+ARU,Aruba,,12.52111,-69.968338
+ARU,Australia,,-25.274398,133.775136
+ASA,American Samoa,,-14.270972,-170.132217
+ATG,Antigua and Barbuda,,17.060816,-61.796428
+AUT,Austria,,47.516231,14.550072
+AZE,Azerbaijan,,40.143105,47.576927
+BAH,Bahamas,,25.03428,-77.39628
+BAN,Bangladesh,,23.684994,90.356331
+BDI,Burundi,,-3.373056,29.918886
+BEL,Belgium,,50.503887,4.469936
+BEN,Benin,,9.30769,2.315834
+BER,Bermuda,,32.321384,-64.75737
+BFA,Burkina Faso,,12.238333,-1.561593
+BHR,Bahrain,,25.930414,50.637772
+BHU,Bhutan,,27.514162,90.433601
+BIH,Bosnia-Herzegovina,,43.915886,17.679076
+BLR,Belarus,,53.709807,27.953389
+BLZ,Belize,,17.189877,-88.49765
+BOE,Bonaire,,12.1443,-68.2655
+BOL,Bolivia,,-16.290154,-63.588653
+BOT,Botswana,,-22.328474,24.684866
+BRA,Brazil,,-14.235004,-51.92528
+BRB,Barbados,,13.193887,-59.543198
+BRU,Brunei,,4.535277,114.727669
+BUL,Bulgaria,,42.733883,25.48583
+CAM,Cambodia,,12.565679,104.990963
+CAN,Canada,,56.130366,-106.346771
+CAY,Cayman Islands,,19.513469,-80.566956
+CGO,Congo,,-4.038333,21.758664
+CHA,Chad,,15.454166,18.732207
+CHI,Chile,,-35.675147,-71.542969
+CHN,China,,35.86166,104.195397
+CIV,Côte d'Ivoire,,7.539989,-5.54708
+CMR,Cameroon,,7.369722,12.354722
+COD,Congo DR,,-0.228021,15.827659
+COK,Cook Islands,,-21.236736,-159.777671
+COL,Colombia,,4.570868,-74.297333
+COM,Comoros,,-11.875001,43.872219
+CPV,Cape Verde,,16.002082,-24.013197
+CRC,Costa Rica,,9.748917,-83.753428
+CRO,Croatia,,45.1,15.2
+CTA,Central African Republic,,6.611111,20.939444
+CUB,Cuba,,21.521757,-77.781167
+CUW,Curaçao,,12.1696,-68.99
+CYP,Cyprus,,35.126413,33.429859
+CZE,Czech Republic,,49.817492,15.472962
+DEN,Denmark,,56.26392,9.501785
+DJI,Djibouti,,11.825138,42.590275
+DMA,Dominica,,15.414999,-61.370976
+DOM,Dominican Republic,,18.735693,-70.162651
+ECU,Ecuador,,-1.831239,-78.183406
+EGY,Egypt,,26.820553,30.802498
+ENG,United Kingdom,England,52.3555,-1.1743
+EQG,Equatorial Guinea,,1.650801,10.267895
+ERI,Eritrea,,15.179384,39.782334
+ESP,Spain,,7.873054,80.771797
+EST,Estonia,,58.595272,25.013607
+ETH,Ethiopia,,9.145,40.489673
+FIJ,Fiji,,-16.578193,179.414413
+FIN,Finland,,61.92411,25.748151
+FRA,France,,46.227638,2.213749
+FRO,Faroe Islands,,-51.796253,-59.523613
+GAB,Gabon,,-0.803689,11.609444
+GAM,Gambia,,13.443182,-15.310139
+GEO,Georgia,,42.315407,43.356892
+GER,Germany,,51.165691,10.451526
+GHA,Ghana,,7.946527,-1.023194
+GIB,Gibraltar,,36.137741,-5.345374
+GNB,Guinea-Bissau,,11.803749,-15.180413
+GPE,Guadeloupe,,16.995971,-62.067641
+GRE,Greece,,39.074208,21.824312
+GRN,Grenada,,12.262776,-61.604171
+GUA,Guatemala,,15.783471,-90.230759
+GUI,Guinea,,9.945587,-9.696645
+GUM,Guam,,13.444304,144.793731
+GUY,Guyana,,4.860416,-58.93018
+GYF,French Guiana,,3.933889,-53.125782
+HAI,Haiti,,18.971187,-72.285215
+HKG,Hong Kong,,22.396428,114.109497
+HON,Honduras,,15.199999,-86.241905
+HUN,Hungary,,47.162494,19.503304
+IDN,Indonesia,,-0.789275,113.921327
+IND,India,,20.593684,78.96288
+IRL,Ireland,,53.41291,-8.24389
+IRN,Iran,,32.427908,53.688046
+IRQ,Iraq,,33.223191,43.679291
+ISL,Iceland,,64.963051,-19.020835
+ISR,Israel,,31.046051,34.851612
+ITA,Italy,,41.87194,12.56738
+JAM,Jamaica,,18.109581,-77.297508
+JOR,Jordan,,30.585164,36.238414
+JPN,Japan,,36.204824,138.252924
+KAZ,Kazakhstan,,48.019573,66.923684
+KEN,Kenya,,-0.023559,37.906193
+KGZ,Kyrgyzstan,,41.20438,74.766098
+KIR,Kiribati,,-3.370417,-168.734039
+KOR,South Korea,,35.907757,127.766922
+KSA,Saudi Arabia,,23.885942,45.079162
+KUW,Kuwait,,29.31166,47.481766
+LAO,Laos,,19.85627,102.495496
+LBR,Liberia,,6.428055,-9.429499
+LBY,Libya,,26.3351,17.228331
+LCA,Saint Lucia,,13.909444,-60.978893
+LES,Lesotho,,-29.609988,28.233608
+LIB,Lebanon,,33.854721,35.862285
+LIE,Liechtenstein,,47.166,9.555373
+LTU,Lithuania,,55.169438,23.881275
+LUX,Luxembourg,,49.815273,6.129583
+LVA,Latvia,,56.879635,24.603189
+MAC,Macau,,22.198745,113.543873
+MAD,Madagascar,,-18.766947,46.869107
+MAR,Morocco,,31.791702,-7.09262
+MAS,Malaysia,,4.210484,101.975766
+MDA,Moldova,,47.411631,28.369885
+MDV,Maldives,,3.202778,73.22068
+MEX,Mexico,,23.634501,-102.552784
+MKD,Macedonia,,41.608635,21.745275
+MLI,Mali,,17.570692,-3.996166
+MLT,Malta,,35.937496,14.375416
+MNE,Montenegro,,42.708678,19.37439
+MNG,Mongolia,,46.862496,103.846656
+MOZ,Mozambique,,-18.665695,35.529562
+MRI,Mauritius,,-20.348404,57.552152
+MSR,Montserrat,,16.742498,-62.187366
+MTN,Mauritania,,21.00789,-10.940835
+MTQ,Martinique,,14.641528,-61.024174
+MWI,Malawi,,-13.254308,34.301525
+MYA,Myanmar,,21.913965,95.956223
+NAM,Namibia,,-22.95764,18.49041
+NCA,Nicaragua,,12.865416,-85.207229
+NCL,New Caledonia,,-20.904305,165.618042
+NED,Netherlands,,52.132633,5.291266
+NEP,Nepal,,28.394857,84.124008
+NGA,Nigeria,,9.081999,8.675277
+NIG,Niger,,17.607789,8.081666
+NIR,United Kingdom,Northern Ireland,54.7877,-6.4923
+NIU,Niue,,-19.054445,-169.867233
+NMI,Northern Mariana Islands,,15.0979,145.6739
+NOR,Norway,,60.472024,8.468946
+NZL,New Zealand,,-40.900557,174.885971
+OMA,Oman,,21.512583,55.923255
+PAK,Pakistan,,30.375321,69.345116
+PAN,Panama,,8.537981,-80.782127
+PAR,Paraguay,,-23.442503,-58.443832
+PER,Peru,,-9.189967,-75.015152
+PHI,Philippines,,12.879721,121.774017
+PLE,Palestine,,31.952162,35.233154
+PNG,Papua New Guinea,,-6.314993,143.95555
+POL,Poland,,51.919438,19.145136
+POR,Portugal,,39.399872,-8.224454
+PRK,North Korea,,40.339852,127.510093
+PUR,Puerto Rico,,18.220833,-66.590149
+QAT,Qatar,,25.354826,51.183884
+REU,Réunion,,-21.115141,55.536384
+ROU,Romania,,45.943161,24.96676
+RSA,South Africa,,-54.429579,-36.587909
+RUS,Russia,,61.52401,105.318756
+RWA,Rwanda,,-1.940278,29.873888
+SAM,Samoa,,-13.759029,-172.104629
+SCO,United Kingdom,Scotland,56.4907,-4.2026
+SDN,Sudan,,3.919305,-56.027783
+SEN,Senegal,,14.497401,-14.452362
+SEY,Seychelles,,-4.679574,55.491977
+SIN,Singapore,,1.352083,103.819836
+SKN,Saint Kitts and Nevis,,17.357822,-62.782998
+SLE,Sierra Leone,,8.460555,-11.779889
+SLV,El Salvador,,13.794185,-88.89653
+SMR,San Marino,,43.94236,12.457777
+SMT,Saint-Martin (French),,18.0826,-63.0523
+SOL,Solomon Islands,,5.152149,46.199616
+SOM,Somalia,,-30.559482,22.937506
+SRB,Serbia,,44.016521,21.005859
+SRI,Sri Lanka,,12.862807,30.217636
+SSD,South Sudan,,40.463667,-3.74922
+STP,São Tomé and Príncipe,,0.18636,6.613081
+SUI,Switzerland,,46.818188,8.227512
+SUR,Suriname,,77.553604,23.670272
+SVK,Slovakia,,46.151241,14.995463
+SVN,Slovenia,,-9.64571,160.156194
+SWE,Sweden,,60.128161,18.643501
+SWZ,Swaziland,,-26.522503,31.465866
+SXM,Sint Maarten (Dutch),,48.669026,19.699024
+SYR,Syria,,34.802075,38.996815
+TAH,Tahiti,,-17.6509,-149.426
+TAN,Tanzania,,-6.369028,34.888822
+TCA,Turks and Caicos Islands,,21.694025,-71.797928
+TGA,Tonga,,-21.178986,-175.198242
+THA,Thailand,,15.870032,100.992541
+TJK,Tajikistan,,38.861034,71.276093
+TKM,Turkmenistan,,38.969719,59.556278
+TLS,Timor-Leste,,-8.874217,125.727539
+TOG,Togo,,8.619543,0.824782
+TPE,Taiwan,,23.69781,120.960515
+TRI,Trinidad and Tobago,,10.691803,-61.222503
+TUN,Tunisia,,33.886917,9.537499
+TUR,Turkey,,38.963745,35.243322
+TUV,Tuvalu,,-7.109535,177.64933
+UAE,United Arab Emirates,,23.424076,53.847818
+UGA,Uganda,,1.373333,32.290275
+UKR,Ukraine,,48.379433,31.16558
+URU,Uruguay,,-32.522779,-55.765835
+USA,United States,,37.09024,-95.712891
+UZB,Uzbekistan,,41.377491,64.585262
+VAN,Vanuatu,,-15.376706,166.959158
+VEN,Venezuela,,6.42375,-66.58973
+VGB,British Virgin Islands,,18.420695,-64.639968
+VIE,Vietnam,,14.058324,108.277199
+VIN,Saint Vincent and the Grenadines,,12.984305,-61.287228
+VIR,U.S. Virgin Islands,,18.335765,-64.896335
+WAL,United Kingdom,Wales,51.1307,-3.7837
+YEM,Yemen,,15.552727,48.516388
+ZAM,Zambia,,-13.133897,27.849332
+ZAN,Zanzibar,,-6.1357,39.3621
+ZIM,Zimbabwe,,-19.015438,29.154857
