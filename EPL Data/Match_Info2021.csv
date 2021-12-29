@@ -1,4 +1,4 @@
-Match_ID,Round_Number,Time,Home_Club_ID,Away_Club_ID
+Match_ID,Round_Number,Time,Home_Club,Away_Club
 156,17,01/01/2021 17:30,Everton,West Ham United
 157,17,01/01/2021 20:00,Manchester United,Aston Villa
 158,17,02/01/2021 12:30,Tottenham Hotspur,Leeds United

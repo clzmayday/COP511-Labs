@@ -1,4 +1,4 @@
-Match_ID,Round_Number,Time,Home_Club_ID,Away_Club_ID
+Match_ID,Round_Number,Time,Home_Club,Away_Club
 1,1,12/09/2020 12:30,Fulham,Arsenal
 2,1,12/09/2020 15:00,Crystal Palace,Southampton
 3,1,12/09/2020 17:30,Liverpool,Leeds United
