@@ -25,7 +25,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='EPL Data' name='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='F:/COP511/Data/EPL Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='F:/COP511/NeverFindMe/EPL Data/EPL Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
@@ -171,89 +171,96 @@
                   </columns>
                 </relation>
               </relation>
-              <relation all='true' name='Match_Stat2020+' type='union'>
-                <columns header='yes'>
-                  <column datatype='integer' name='Match_ID' />
-                  <column datatype='string' name='Win_Club' />
-                  <column datatype='integer' name='Home_Goal' />
-                  <column datatype='integer' name='Away_Goal' />
-                  <column datatype='integer' name='Home_Goal_H1' />
-                  <column datatype='integer' name='Away_Goal_H1' />
-                  <column datatype='integer' name='Home_Goal_H2' />
-                  <column datatype='integer' name='Away_Goal_H2' />
-                  <column datatype='integer' name='Home_Shot' />
-                  <column datatype='integer' name='Away_Shot' />
-                  <column datatype='integer' name='Home_Shot_on_Target' />
-                  <column datatype='integer' name='Away_Shot_on_Target' />
-                  <column datatype='integer' name='Home_Fouls' />
-                  <column datatype='integer' name='Away_Fouls' />
-                  <column datatype='integer' name='Home_Corners' />
-                  <column datatype='integer' name='Away_Corners' />
-                  <column datatype='integer' name='Home_Yellow' />
-                  <column datatype='integer' name='Away_Yellow' />
-                  <column datatype='integer' name='Home_Red' />
-                  <column datatype='integer' name='Away_Red' />
-                  <column datatype='string' name='Sheet' />
-                  <column datatype='string' name='Table Name' />
+              <relation type='project'>
+                <columns>
+                  <column caption='Win_Team' hidden='true' name='[Match_Stat2020+].[Win_Team]' />
+                  <column caption='Winner' hidden='true' name='[Match_Stat2020+].[Winner]' />
+                  <column name='[Project].[Win_Team &amp; Winner]' project-type='coalesce' />
                 </columns>
-                <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2020' table='[Match_Stat2020$]' type='table'>
-                  <columns gridOrigin='A1:T156:no:A1:T156:0' header='yes' outcome='6'>
-                    <column datatype='integer' name='Match_ID' ordinal='0' />
-                    <column datatype='string' name='Win_Club' ordinal='1' />
-                    <column datatype='integer' name='Home_Goal' ordinal='2' />
-                    <column datatype='integer' name='Away_Goal' ordinal='3' />
-                    <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
-                    <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
-                    <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
-                    <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
-                    <column datatype='integer' name='Home_Shot' ordinal='8' />
-                    <column datatype='integer' name='Away_Shot' ordinal='9' />
-                    <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
-                    <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
-                    <column datatype='integer' name='Home_Fouls' ordinal='12' />
-                    <column datatype='integer' name='Away_Fouls' ordinal='13' />
-                    <column datatype='integer' name='Home_Corners' ordinal='14' />
-                    <column datatype='integer' name='Away_Corners' ordinal='15' />
-                    <column datatype='integer' name='Home_Yellow' ordinal='16' />
-                    <column datatype='integer' name='Away_Yellow' ordinal='17' />
-                    <column datatype='integer' name='Home_Red' ordinal='18' />
-                    <column datatype='integer' name='Away_Red' ordinal='19' />
+                <bindings>
+                  <binding expression='IF NOT ISNULL([Match_Stat2020+].[Win_Team]) THEN [Match_Stat2020+].[Win_Team]&#10;ELSEIF NOT ISNULL([Match_Stat2020+].[Winner]) THEN [Match_Stat2020+].[Winner]&#10;ELSE NULL&#10;END' name='[Project].[Win_Team &amp; Winner]' />
+                </bindings>
+                <relation all='true' name='Match_Stat2020+' type='union'>
+                  <columns header='yes'>
+                    <column datatype='integer' name='Match_ID' />
+                    <column datatype='string' name='Win_Club' />
+                    <column datatype='integer' name='Home_Goal' />
+                    <column datatype='integer' name='Away_Goal' />
+                    <column datatype='integer' name='Home_Goal_H1' />
+                    <column datatype='integer' name='Away_Goal_H1' />
+                    <column datatype='integer' name='Home_Goal_H2' />
+                    <column datatype='integer' name='Away_Goal_H2' />
+                    <column datatype='integer' name='Home_Shot' />
+                    <column datatype='integer' name='Away_Shot' />
+                    <column datatype='integer' name='Home_Shot_on_Target' />
+                    <column datatype='integer' name='Away_Shot_on_Target' />
+                    <column datatype='integer' name='Home_Fouls' />
+                    <column datatype='integer' name='Away_Fouls' />
+                    <column datatype='integer' name='Home_Corners' />
+                    <column datatype='integer' name='Away_Corners' />
+                    <column datatype='integer' name='Home_Yellow' />
+                    <column datatype='integer' name='Away_Yellow' />
+                    <column datatype='integer' name='Home_Red' />
+                    <column datatype='integer' name='Away_Red' />
+                    <column datatype='string' name='Sheet' />
+                    <column datatype='string' name='Table Name' />
                   </columns>
-                </relation>
-                <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2021' table='[Match_Stat2021$]' type='table'>
-                  <columns gridOrigin='A1:T226:no:A1:T226:0' header='yes' outcome='6'>
-                    <column datatype='integer' name='Match_ID' ordinal='0' />
-                    <column datatype='string' name='Win_Club' ordinal='1' />
-                    <column datatype='integer' name='Home_Goal' ordinal='2' />
-                    <column datatype='integer' name='Away_Goal' ordinal='3' />
-                    <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
-                    <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
-                    <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
-                    <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
-                    <column datatype='integer' name='Home_Shot' ordinal='8' />
-                    <column datatype='integer' name='Away_Shot' ordinal='9' />
-                    <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
-                    <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
-                    <column datatype='integer' name='Home_Fouls' ordinal='12' />
-                    <column datatype='integer' name='Away_Fouls' ordinal='13' />
-                    <column datatype='integer' name='Home_Corners' ordinal='14' />
-                    <column datatype='integer' name='Away_Corners' ordinal='15' />
-                    <column datatype='integer' name='Home_Yellow' ordinal='16' />
-                    <column datatype='integer' name='Away_Yellow' ordinal='17' />
-                    <column datatype='integer' name='Home_Red' ordinal='18' />
-                    <column datatype='integer' name='Away_Red' ordinal='19' />
-                  </columns>
+                  <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2020' table='[Match_Stat2020$]' type='table'>
+                    <columns gridOrigin='A1:T156:no:A1:T156:0' header='yes' outcome='6'>
+                      <column datatype='integer' name='Match_ID' ordinal='0' />
+                      <column datatype='string' name='Win_Team' ordinal='1' />
+                      <column datatype='integer' name='Home_Goal' ordinal='2' />
+                      <column datatype='integer' name='Away_Goal' ordinal='3' />
+                      <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
+                      <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
+                      <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
+                      <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
+                      <column datatype='integer' name='Home_Shot' ordinal='8' />
+                      <column datatype='integer' name='Away_Shot' ordinal='9' />
+                      <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
+                      <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
+                      <column datatype='integer' name='Home_Fouls' ordinal='12' />
+                      <column datatype='integer' name='Away_Fouls' ordinal='13' />
+                      <column datatype='integer' name='Home_Corners' ordinal='14' />
+                      <column datatype='integer' name='Away_Corners' ordinal='15' />
+                      <column datatype='integer' name='Home_Yellow' ordinal='16' />
+                      <column datatype='integer' name='Away_Yellow' ordinal='17' />
+                      <column datatype='integer' name='Home_Red' ordinal='18' />
+                      <column datatype='integer' name='Away_Red' ordinal='19' />
+                    </columns>
+                  </relation>
+                  <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2021' table='[Match_Stat2021$]' type='table'>
+                    <columns gridOrigin='A1:T226:no:A1:T226:0' header='yes' outcome='6'>
+                      <column datatype='integer' name='Match_ID' ordinal='0' />
+                      <column datatype='string' name='Winner' ordinal='1' />
+                      <column datatype='integer' name='Home_Goal' ordinal='2' />
+                      <column datatype='integer' name='Away_Goal' ordinal='3' />
+                      <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
+                      <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
+                      <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
+                      <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
+                      <column datatype='integer' name='Home_Shot' ordinal='8' />
+                      <column datatype='integer' name='Away_Shot' ordinal='9' />
+                      <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
+                      <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
+                      <column datatype='integer' name='Home_Fouls' ordinal='12' />
+                      <column datatype='integer' name='Away_Fouls' ordinal='13' />
+                      <column datatype='integer' name='Home_Corners' ordinal='14' />
+                      <column datatype='integer' name='Away_Corners' ordinal='15' />
+                      <column datatype='integer' name='Home_Yellow' ordinal='16' />
+                      <column datatype='integer' name='Away_Yellow' ordinal='17' />
+                      <column datatype='integer' name='Home_Red' ordinal='18' />
+                      <column datatype='integer' name='Away_Red' ordinal='19' />
+                    </columns>
+                  </relation>
                 </relation>
               </relation>
             </relation>
           </relation>
           <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='FIFA_Country' table='[FIFA_Country$]' type='table'>
-            <columns gridOrigin='A1:E223:no:A1:E223:0' header='yes' outcome='6'>
+            <columns gridOrigin='A1:B223:no:A1:B223:0' header='yes' outcome='6'>
               <column datatype='string' name='FIFA Contry Code' ordinal='0' />
               <column datatype='string' name='Country (Name)' ordinal='1' />
-              <column datatype='string' name='State/Province' ordinal='2' />
-              <column datatype='real' name='latitude' ordinal='3' />
-              <column datatype='real' name='longitude' ordinal='4' />
             </columns>
           </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
@@ -313,15 +320,12 @@
           <map key='[Sheet]' value='[Match_Info2020+].[Sheet]' />
           <map key='[Stadium]' value='[Club_Info].[Stadium]' />
           <map key='[Starts]' value='[Player_Stat].[Starts]' />
-          <map key='[State/Province]' value='[FIFA_Country].[State/Province]' />
           <map key='[Table Name (Match_Stat2020+)]' value='[Match_Stat2020+].[Table Name]' />
           <map key='[Table Name]' value='[Match_Info2020+].[Table Name]' />
           <map key='[Time]' value='[Match_Info2020+].[Time]' />
           <map key='[Win]' value='[Club_Stat].[Win]' />
-          <map key='[Win_Club]' value='[Match_Stat2020+].[Win_Club]' />
+          <map key='[Win_Team &amp; Winner]' value='[Project].[Win_Team &amp; Winner]' />
           <map key='[Yellow_Cards]' value='[Player_Stat].[Yellow_Cards]' />
-          <map key='[latitude]' value='[FIFA_Country].[latitude]' />
-          <map key='[longitude]' value='[FIFA_Country].[longitude]' />
         </cols>
         <metadata-records>
           <metadata-record class='capability'>
@@ -404,8 +408,8 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:E223:no:A1:E223:0&quot;</attribute>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B223:no:A1:B223:0&quot;</attribute>
               <attribute datatype='boolean' name='header'>true</attribute>
               <attribute datatype='integer' name='outcome'>6</attribute>
             </attributes>
@@ -945,11 +949,11 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Match!Info2020_733A7C4AE5A74271B141CD564209F0D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Win_Club</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Win_Club]</local-name>
-            <parent-name>[Match_Stat2020+]</parent-name>
-            <remote-alias>Win_Club</remote-alias>
+            <remote-name>Win_Team &amp; Winner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Win_Team &amp; Winner]</local-name>
+            <parent-name>[Project]</parent-name>
+            <remote-alias>Win_Team &amp; Winner</remote-alias>
             <ordinal>36</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1255,54 +1259,6 @@
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FIFA!Country_4B2BB15C68B34609A10E2069F860E821]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>State/Province</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[State/Province]</local-name>
-            <parent-name>[FIFA_Country]</parent-name>
-            <remote-alias>State/Province</remote-alias>
-            <ordinal>61</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RGB_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FIFA!Country_4B2BB15C68B34609A10E2069F860E821]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>latitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[latitude]</local-name>
-            <parent-name>[FIFA_Country]</parent-name>
-            <remote-alias>latitude</remote-alias>
-            <ordinal>62</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FIFA!Country_4B2BB15C68B34609A10E2069F860E821]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>longitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[longitude]</local-name>
-            <parent-name>[FIFA_Country]</parent-name>
-            <remote-alias>longitude</remote-alias>
-            <ordinal>63</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FIFA!Country_4B2BB15C68B34609A10E2069F860E821]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
@@ -1350,21 +1306,16 @@
       <column caption='Round Number' datatype='integer' name='[Round_Number]' role='dimension' type='ordinal' />
       <column datatype='string' hidden='true' name='[Sheet (Match_Stat2020+)]' role='dimension' type='nominal' />
       <column datatype='string' hidden='true' name='[Sheet]' role='dimension' type='nominal' />
-      <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column datatype='string' hidden='true' name='[Table Name (Match_Stat2020+)]' role='dimension' type='nominal' />
       <column datatype='string' hidden='true' name='[Table Name]' role='dimension' type='nominal' />
-      <column caption='Win Club' datatype='string' name='[Win_Club]' role='dimension' type='nominal' />
       <column caption='Yellow Cards' datatype='integer' name='[Yellow_Cards]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Club_Info' datatype='table' name='[__tableau_internal_object_id__].[Club!Info_836FBB14749B4916950AC200924CC049]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='FIFA_Country' datatype='table' name='[__tableau_internal_object_id__].[FIFA!Country_4B2BB15C68B34609A10E2069F860E821]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Match_Info2020' datatype='table' name='[__tableau_internal_object_id__].[Match!Info2020_733A7C4AE5A74271B141CD564209F0D7]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Player_Info' datatype='table' name='[__tableau_internal_object_id__].[Player!Info_932B86B37CF4418CBE77D8401EBAE794]' role='measure' type='quantitative' />
-      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
-      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
       <drill-paths>
         <drill-path name='Country (Name), State/Province, City'>
           <field>[Country (Name)]</field>
-          <field>[State/Province]</field>
           <field>[City]</field>
         </drill-path>
       </drill-paths>
@@ -1411,12 +1362,9 @@
           <object caption='FIFA_Country' id='FIFA!Country_4B2BB15C68B34609A10E2069F860E821'>
             <properties context=''>
               <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='FIFA_Country' table='[FIFA_Country$]' type='table'>
-                <columns gridOrigin='A1:E223:no:A1:E223:0' header='yes' outcome='6'>
+                <columns gridOrigin='A1:B223:no:A1:B223:0' header='yes' outcome='6'>
                   <column datatype='string' name='FIFA Contry Code' ordinal='0' />
                   <column datatype='string' name='Country (Name)' ordinal='1' />
-                  <column datatype='string' name='State/Province' ordinal='2' />
-                  <column datatype='real' name='latitude' ordinal='3' />
-                  <column datatype='real' name='longitude' ordinal='4' />
                 </columns>
               </relation>
             </properties>
@@ -1474,78 +1422,88 @@
                       </columns>
                     </relation>
                   </relation>
-                  <relation all='true' name='Match_Stat2020+' type='union'>
-                    <columns header='yes'>
-                      <column datatype='integer' name='Match_ID' />
-                      <column datatype='string' name='Win_Club' />
-                      <column datatype='integer' name='Home_Goal' />
-                      <column datatype='integer' name='Away_Goal' />
-                      <column datatype='integer' name='Home_Goal_H1' />
-                      <column datatype='integer' name='Away_Goal_H1' />
-                      <column datatype='integer' name='Home_Goal_H2' />
-                      <column datatype='integer' name='Away_Goal_H2' />
-                      <column datatype='integer' name='Home_Shot' />
-                      <column datatype='integer' name='Away_Shot' />
-                      <column datatype='integer' name='Home_Shot_on_Target' />
-                      <column datatype='integer' name='Away_Shot_on_Target' />
-                      <column datatype='integer' name='Home_Fouls' />
-                      <column datatype='integer' name='Away_Fouls' />
-                      <column datatype='integer' name='Home_Corners' />
-                      <column datatype='integer' name='Away_Corners' />
-                      <column datatype='integer' name='Home_Yellow' />
-                      <column datatype='integer' name='Away_Yellow' />
-                      <column datatype='integer' name='Home_Red' />
-                      <column datatype='integer' name='Away_Red' />
-                      <column datatype='string' name='Sheet' />
-                      <column datatype='string' name='Table Name' />
+                  <relation type='project'>
+                    <columns>
+                      <column caption='Win_Team' hidden='true' name='[Match_Stat2020+].[Win_Team]' />
+                      <column caption='Winner' hidden='true' name='[Match_Stat2020+].[Winner]' />
+                      <column name='[Project].[Win_Team &amp; Winner]' project-type='coalesce' />
                     </columns>
-                    <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2020' table='[Match_Stat2020$]' type='table'>
-                      <columns gridOrigin='A1:T156:no:A1:T156:0' header='yes' outcome='6'>
-                        <column datatype='integer' name='Match_ID' ordinal='0' />
-                        <column datatype='string' name='Win_Club' ordinal='1' />
-                        <column datatype='integer' name='Home_Goal' ordinal='2' />
-                        <column datatype='integer' name='Away_Goal' ordinal='3' />
-                        <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
-                        <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
-                        <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
-                        <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
-                        <column datatype='integer' name='Home_Shot' ordinal='8' />
-                        <column datatype='integer' name='Away_Shot' ordinal='9' />
-                        <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
-                        <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
-                        <column datatype='integer' name='Home_Fouls' ordinal='12' />
-                        <column datatype='integer' name='Away_Fouls' ordinal='13' />
-                        <column datatype='integer' name='Home_Corners' ordinal='14' />
-                        <column datatype='integer' name='Away_Corners' ordinal='15' />
-                        <column datatype='integer' name='Home_Yellow' ordinal='16' />
-                        <column datatype='integer' name='Away_Yellow' ordinal='17' />
-                        <column datatype='integer' name='Home_Red' ordinal='18' />
-                        <column datatype='integer' name='Away_Red' ordinal='19' />
+                    <bindings>
+                      <binding expression='IF NOT ISNULL([Match_Stat2020+].[Win_Team]) THEN [Match_Stat2020+].[Win_Team]&#10;ELSEIF NOT ISNULL([Match_Stat2020+].[Winner]) THEN [Match_Stat2020+].[Winner]&#10;ELSE NULL&#10;END' name='[Project].[Win_Team &amp; Winner]' />
+                    </bindings>
+                    <relation all='true' name='Match_Stat2020+' type='union'>
+                      <columns header='yes'>
+                        <column datatype='integer' name='Match_ID' />
+                        <column datatype='string' name='Win_Club' />
+                        <column datatype='integer' name='Home_Goal' />
+                        <column datatype='integer' name='Away_Goal' />
+                        <column datatype='integer' name='Home_Goal_H1' />
+                        <column datatype='integer' name='Away_Goal_H1' />
+                        <column datatype='integer' name='Home_Goal_H2' />
+                        <column datatype='integer' name='Away_Goal_H2' />
+                        <column datatype='integer' name='Home_Shot' />
+                        <column datatype='integer' name='Away_Shot' />
+                        <column datatype='integer' name='Home_Shot_on_Target' />
+                        <column datatype='integer' name='Away_Shot_on_Target' />
+                        <column datatype='integer' name='Home_Fouls' />
+                        <column datatype='integer' name='Away_Fouls' />
+                        <column datatype='integer' name='Home_Corners' />
+                        <column datatype='integer' name='Away_Corners' />
+                        <column datatype='integer' name='Home_Yellow' />
+                        <column datatype='integer' name='Away_Yellow' />
+                        <column datatype='integer' name='Home_Red' />
+                        <column datatype='integer' name='Away_Red' />
+                        <column datatype='string' name='Sheet' />
+                        <column datatype='string' name='Table Name' />
                       </columns>
-                    </relation>
-                    <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2021' table='[Match_Stat2021$]' type='table'>
-                      <columns gridOrigin='A1:T226:no:A1:T226:0' header='yes' outcome='6'>
-                        <column datatype='integer' name='Match_ID' ordinal='0' />
-                        <column datatype='string' name='Win_Club' ordinal='1' />
-                        <column datatype='integer' name='Home_Goal' ordinal='2' />
-                        <column datatype='integer' name='Away_Goal' ordinal='3' />
-                        <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
-                        <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
-                        <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
-                        <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
-                        <column datatype='integer' name='Home_Shot' ordinal='8' />
-                        <column datatype='integer' name='Away_Shot' ordinal='9' />
-                        <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
-                        <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
-                        <column datatype='integer' name='Home_Fouls' ordinal='12' />
-                        <column datatype='integer' name='Away_Fouls' ordinal='13' />
-                        <column datatype='integer' name='Home_Corners' ordinal='14' />
-                        <column datatype='integer' name='Away_Corners' ordinal='15' />
-                        <column datatype='integer' name='Home_Yellow' ordinal='16' />
-                        <column datatype='integer' name='Away_Yellow' ordinal='17' />
-                        <column datatype='integer' name='Home_Red' ordinal='18' />
-                        <column datatype='integer' name='Away_Red' ordinal='19' />
-                      </columns>
+                      <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2020' table='[Match_Stat2020$]' type='table'>
+                        <columns gridOrigin='A1:T156:no:A1:T156:0' header='yes' outcome='6'>
+                          <column datatype='integer' name='Match_ID' ordinal='0' />
+                          <column datatype='string' name='Win_Team' ordinal='1' />
+                          <column datatype='integer' name='Home_Goal' ordinal='2' />
+                          <column datatype='integer' name='Away_Goal' ordinal='3' />
+                          <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
+                          <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
+                          <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
+                          <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
+                          <column datatype='integer' name='Home_Shot' ordinal='8' />
+                          <column datatype='integer' name='Away_Shot' ordinal='9' />
+                          <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
+                          <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
+                          <column datatype='integer' name='Home_Fouls' ordinal='12' />
+                          <column datatype='integer' name='Away_Fouls' ordinal='13' />
+                          <column datatype='integer' name='Home_Corners' ordinal='14' />
+                          <column datatype='integer' name='Away_Corners' ordinal='15' />
+                          <column datatype='integer' name='Home_Yellow' ordinal='16' />
+                          <column datatype='integer' name='Away_Yellow' ordinal='17' />
+                          <column datatype='integer' name='Home_Red' ordinal='18' />
+                          <column datatype='integer' name='Away_Red' ordinal='19' />
+                        </columns>
+                      </relation>
+                      <relation connection='excel-direct.08vbikp1ngeoaw14g8wsm1pfe3za' name='Match_Stat2021' table='[Match_Stat2021$]' type='table'>
+                        <columns gridOrigin='A1:T226:no:A1:T226:0' header='yes' outcome='6'>
+                          <column datatype='integer' name='Match_ID' ordinal='0' />
+                          <column datatype='string' name='Winner' ordinal='1' />
+                          <column datatype='integer' name='Home_Goal' ordinal='2' />
+                          <column datatype='integer' name='Away_Goal' ordinal='3' />
+                          <column datatype='integer' name='Home_Goal_H1' ordinal='4' />
+                          <column datatype='integer' name='Away_Goal_H1' ordinal='5' />
+                          <column datatype='integer' name='Home_Goal_H2' ordinal='6' />
+                          <column datatype='integer' name='Away_Goal_H2' ordinal='7' />
+                          <column datatype='integer' name='Home_Shot' ordinal='8' />
+                          <column datatype='integer' name='Away_Shot' ordinal='9' />
+                          <column datatype='integer' name='Home_Shot_on_Target' ordinal='10' />
+                          <column datatype='integer' name='Away_Shot_on_Target' ordinal='11' />
+                          <column datatype='integer' name='Home_Fouls' ordinal='12' />
+                          <column datatype='integer' name='Away_Fouls' ordinal='13' />
+                          <column datatype='integer' name='Home_Corners' ordinal='14' />
+                          <column datatype='integer' name='Away_Corners' ordinal='15' />
+                          <column datatype='integer' name='Home_Yellow' ordinal='16' />
+                          <column datatype='integer' name='Away_Yellow' ordinal='17' />
+                          <column datatype='integer' name='Home_Red' ordinal='18' />
+                          <column datatype='integer' name='Away_Red' ordinal='19' />
+                        </columns>
+                      </relation>
                     </relation>
                   </relation>
                 </relation>
